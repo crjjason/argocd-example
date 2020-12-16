@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx-service
   labels:
-    App: nginx
+    app: nginx
 spec:
   ports:
   - port: 9080
