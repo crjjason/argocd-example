@@ -9,4 +9,4 @@ spec:
   - port: 9080
     targetPort: 80
   selector:
-    app: my-nginx
+    app: nginx
