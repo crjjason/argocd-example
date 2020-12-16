@@ -8,6 +8,5 @@ spec:
   ports:
   - port: 9080
     targetPort: 80
-    protocol: TCP
   selector:
     run: my-nginx
